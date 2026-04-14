@@ -1,5 +1,6 @@
 /* this whole thing is just for screen sizes and images */
 
+
 /* mobile styling */
 @media screen and (width <= 390px){
     .desktop-ready {
@@ -13,6 +14,10 @@
     .mobile-ready {
         display: block;
     }
+
+    #calltoaction-index {
+        display: none;
+    }
 }
 
 /* tablet styling. between desktop sizes and mobile sizes */
@@ -25,16 +30,25 @@
         display: block;
     }
 
+    #calltoaction-index {
+        display: none;
+    }
+
     .mobile-ready {
         display: none;
     }
 }
 
-/* desktop styling */
-@media screen and (width >= 1280px){
+/* desktop styling */ /* probably change width back to 1280 after all is said and done?*/
+@media screen and (width >= 1200px){
     .desktop-ready {
         display: block;
+        height: 90%;
+        max-width: 75%;
+        margin: auto;
     }
+
+    
 
     .tablet-ready {
         display: none;
@@ -43,4 +57,13 @@
     .mobile-ready {
         display: none;
     }
+
+    #calltoaction-index {
+        max-height: 50%;
+        max-width: 35%;
+        margin-left: 60%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    
 }
