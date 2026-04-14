@@ -1,0 +1,46 @@
+/* this whole thing is just for screen sizes and images */
+
+/* mobile styling */
+@media screen and (width <= 390px){
+    .desktop-ready {
+        display: none;
+    }
+
+    .tablet-ready {
+        display: none;
+    }
+
+    .mobile-ready {
+        display: block;
+    }
+}
+
+/* tablet styling. between desktop sizes and mobile sizes */
+@media screen and (width > 390px) and (width < 1280px) {
+    .desktop-ready {
+        display: none;
+    }
+
+    .tablet-ready {
+        display: block;
+    }
+
+    .mobile-ready {
+        display: none;
+    }
+}
+
+/* desktop styling */
+@media screen and (width >= 1280px){
+    .desktop-ready {
+        display: block;
+    }
+
+    .tablet-ready {
+        display: none;
+    }
+
+    .mobile-ready {
+        display: none;
+    }
+}
