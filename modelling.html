@@ -1,20 +1,52 @@
+<!DOCTYPE html>
+
+<html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio -- Models</title>
     <link rel="icon" type="image/png" href="images/icon/icon.png">
-    <link rel="stylesheet" href="css/main.css"
+    <link rel="stylesheet" href="css/main.css">
 </head>
+<body>
+    <header>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="submenu"><a href="portfolio.html">Portfolio</a>
+                <div class="dropdown">
+                <ul>
+                    <li class="active"><a href="#">Modelling</a></li>
+                    <li><a href="illustration.html">Illustrations</a></li>
+                </ul>
+            </div>
+            </li>
+
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+</header>
+<div class="container">
 
 <p>this page will be scary :(</p>
 
+<div class="filters">
 <input type="checkbox" id="lowpolycheck">
 <label for="lowpolycheck" class="lowpoly-btn">Lowpoly Only</label>
 
+
 <input type="checkbox" id="highpolycheck">
 <label for="highpolycheck" class="highpoly-btn">Highpoly Only</label>
+</div>
 
-
+<div class="images">
 <img src="images/highpoly/blendercube.jpg" class="highpoly">
 
 <img src="images/lowpoly/modelplaceholder.png" class="lowpoly">
+</div>
+
+<div class="footer">&copy; Aiden Kelly</div>
+
+</div>
+</body>
+</html>

@@ -13,10 +13,25 @@
 
     .mobile-ready {
         display: block;
+        height: 90%;
+        max-width: 75%;
+        margin: auto;
     }
 
-    #calltoaction-index {
+    #calltoaction-index.desktop-ready {
         display: none;
+    }
+
+    #calltoaction-index.tablet-ready {
+        display: none;
+    }
+
+    #calltoaction-index.mobile-ready {
+        max-height: 50%;
+        max-width: 35%;
+        margin-left: 60%;
+        display: flex;
+        flex-direction: row-reverse;
     }
 }
 
@@ -28,9 +43,24 @@
 
     .tablet-ready {
         display: block;
+        height: 90%;
+        max-width: 75%;
+        margin: auto;
     }
 
-    #calltoaction-index {
+    #calltoaction-index.desktop-ready {
+        display: none;
+    }
+
+    #calltoaction-index.tablet-ready {
+        max-height: 50%;
+        max-width: 35%;
+        margin-left: 60%;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    #calltoaction-index.mobile-ready {
         display: none;
     }
 
@@ -48,8 +78,6 @@
         margin: auto;
     }
 
-    
-
     .tablet-ready {
         display: none;
     }
@@ -58,12 +86,15 @@
         display: none;
     }
 
-    #calltoaction-index {
+    #calltoaction-index.desktop-ready {
         max-height: 50%;
         max-width: 35%;
         margin-left: 60%;
         display: flex;
         flex-direction: row-reverse;
     }
-    
+
+    #calltoaction-index.tablet-ready {
+        display: none;
+    }
 }

@@ -5,6 +5,7 @@ header {
     position: sticky;
     top: 0;
     width: 100%;
+    padding-bottom: 2%;
 }
 
 .navbar {
@@ -56,14 +57,20 @@ header {
 }
 
 
-/* main page thangs */
+/* shared thangs*/
 
 
 content {
     margin-top: 50px;
 }
 
-footer {
-    
+.container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+      justify-content: space-between;
 }
-/* portfolio page thangs */
+
+.footer {
+    text-align: center;
+}

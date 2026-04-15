@@ -1,15 +1,44 @@
+<!DOCTYPE html>
+
+<html> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="icon" type="image/png" href="images/icon/icon.png">
-    <link rel="stylesheet" href="css/main.css"
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+
 </head>
+<body>
+    
+    <header>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="active" class="submenu"><a href="#">Portfolio</a>
+                <div class="dropdown">
+                <ul>
+                    <li><a href="modelling.html">Modelling</a></li>
+                    <li><a href="illustration.html">Illustrations</a></li>
+                </ul>
+            </div>
+            </li>
 
-<div class="modelling-btn">
-    <button><a href="modelling.html">Modelling</a></button>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+</header>
+
+<div class="container">
+<div class="buttons">
+    <button class="modelling-btn"><a href="modelling.html">Modelling</a></button>
+
+    <button class="illustration-btn"><a href="illustration.html">Illustration</a></button>
 </div>
 
-<div class="illustration-btn">
-    <button><a href="illustration.html">Illustration</a></button>
+
+<div class="footer">&copy; Aiden Kelly</div>
 </div>
+</body>
+</html>
