@@ -32,13 +32,22 @@
 
 <div class="container">
 <div class="buttons">
-    <button class="modelling-btn"><a href="modelling.html">Modelling</a></button>
-
-    <button class="illustration-btn"><a href="illustration.html">Illustration</a></button>
+        <button class="modelling-btn" onClick="modellingRedirect()"><a href="modelling.html">Modelling</a></button>
+        <button class="illustration-btn" onClick="illustrationRedirect()"><a href="illustration.html">Illustration</a></button>
 </div>
 
 
 <div class="footer">&copy; Aiden Kelly</div>
 </div>
+
+<script>
+    function modellingRedirect() {
+  window.location.href = "modelling.html";
+}
+
+function illustrationRedirect() {
+  window.location.href = "illustration.html";
+}
+</script>
 </body>
 </html>

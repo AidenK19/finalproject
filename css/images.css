@@ -1,0 +1,17 @@
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+img {
+    height: 350px;
+    width: 350px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    object-fit: cover;
+    object-position: center;
+}
