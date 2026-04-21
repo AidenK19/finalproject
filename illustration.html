@@ -32,15 +32,15 @@
 <div class="container">
 
 <div class="gallery">
-    <img src="images/illustrations/20260320_143521.jpg">
-    <img src="images/illustrations/ariesmoonpreview.png">
-    <img src="images/illustrations/horsie.png">
-    <img src="images/illustrations/cnyzine26.png">
-    <img src="images/illustrations/20260320_143521.jpg">
-    <img src="images/illustrations/ariesmoonpreview.png">
-    <img src="images/illustrations/horsie.png">
-    <img src="images/illustrations/cnyzine26.png">
-    <img src="images/illustrations/20260320_143521.jpg">
+    <img src="images/illustrations/20260320_143521.jpg" class="default" id="img1" onclick="change(this)">
+    <img src="images/illustrations/ariesmoonpreview.png" class="default" id="img2" onclick="change(this)">
+    <img src="images/illustrations/horsie.png" class="default" id="img3" onclick="change(this)">
+    <img src="images/illustrations/cnyzine26.png" class="default" id="img4" onclick="change(this)">
+    <img src="images/illustrations/20260320_143521.jpg" class="default" id="img5" onclick="change(this)">
+    <img src="images/illustrations/ariesmoonpreview.png" class="default" id="img6" onclick="change(this)">
+    <img src="images/illustrations/horsie.png" class="default" id="img7" onclick="change(this)">
+    <img src="images/illustrations/cnyzine26.png" class="default" id="img8" onclick="change(this)">
+    <img src="images/illustrations/20260320_143521.jpg" class="default" id="img9" onclick="change(this)">
     
 </div>
 
@@ -48,5 +48,11 @@
 
 <div class="footer">&copy; Aiden Kelly</div>
 </div>
+
+<script>
+    function change(element) {
+    element.classList.toggle("fullsize");
+}
+</script>
 </body>
 </html>

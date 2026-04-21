@@ -40,23 +40,23 @@
 
 <div class="gallery">
     
-<img src="images/highpoly/blendercube.jpg" class="highpoly">
+<img src="images/highpoly/blendercube.jpg" class="highpoly default" id="model1" onclick="change(this)">
 
-<img src="images/lowpoly/modelplaceholder.png" class="lowpoly">
+<img src="images/lowpoly/modelplaceholder.png" class="lowpoly default" id="model2" onclick="change(this)">
 
-<img src="images/highpoly/blendercube.jpg" class="highpoly">
+<img src="images/highpoly/blendercube.jpg" class="highpoly default" id="model3" onclick="change(this)">
 
-<img src="images/lowpoly/modelplaceholder.png" class="lowpoly">
+<img src="images/lowpoly/modelplaceholder.png" class="lowpoly default" id="model4" onclick="change(this)">
 
-<img src="images/highpoly/blendercube.jpg" class="highpoly">
+<img src="images/highpoly/blendercube.jpg" class="highpoly default" id="model5" onclick="change(this)">
 
-<img src="images/lowpoly/modelplaceholder.png" class="lowpoly">
+<img src="images/lowpoly/modelplaceholder.png" class="lowpoly default" id="model6" onclick="change(this)">
 
-<img src="images/highpoly/blendercube.jpg" class="highpoly">
+<img src="images/highpoly/blendercube.jpg" class="highpoly default" id="model7" onclick="change(this)">
 
-<img src="images/lowpoly/modelplaceholder.png" class="lowpoly">
+<img src="images/lowpoly/modelplaceholder.png" class="lowpoly default" id="model8" onclick="change(this)">
 
-<img src="images/highpoly/blendercube.jpg" class="highpoly">
+<img src="images/highpoly/blendercube.jpg" class="highpoly default" id="model9" onclick="change(this)">
 
 </div>
 
@@ -66,4 +66,9 @@
 </body>
 
 <script src="scripts/filter.js"></script>
+<script>    
+    function change(element) {
+        element.classList.toggle("fullsize");
+    }
+</script>
 </html>

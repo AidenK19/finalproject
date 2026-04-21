@@ -6,12 +6,26 @@
     
 }
 
-img {
+.default {
     height: 350px;
     width: 350px;
     padding: 5px;
     margin: 5px;
-    border: 1px solid #ccc;
     object-fit: cover;
     object-position: center;
+}
+
+.fullsize {
+    z-index: 998;
+    border: 5px solid darkgrey;
+    cursor: zoom-out;
+    display: block;
+    width: 100%;
+    height: 82%;
+    position: fixed;
+    object-fit: contain;
+    object-position: center;
+    bottom: 2px;
+    background-color: rgba(0,0,0,85%);
+    background-size: auto;
 }

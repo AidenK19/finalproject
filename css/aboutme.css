@@ -1,16 +1,35 @@
 .content {
     display: flex;
+    flex-direction: row;
     margin-top: 0%;
     margin-bottom: auto;
-    margin-left:20%;
-    margin-right: 20%;
+    margin-left:10%;
+    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
     justify-content: space-between;
     text-align: center;
+    gap: 30%;
 }
 
-.spacer {
-    width: 100%;
+label {
+ display: inline-flex;
+ margin-bottom: 5px;
 }
+
+.formrow {
+  display: flex;
+}
+
+.formgroup {
+  width: auto;
+  padding: 5px;
+}
+
+.formgroup input {
+  width: 100%;
+}
+
 
 .footer {
     text-align: center;
