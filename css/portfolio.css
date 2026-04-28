@@ -1,3 +1,5 @@
+/*DEVELOPER: Aiden Kelly, IS117-002, Spring 2026 */
+
 .buttons {
     display: flex;
     align-items: center;
@@ -52,4 +54,13 @@ a {
     color:rgb(143, 212, 255);
     font-family: "sausage";
     font-weight: 200;
+}
+
+@media screen and (width <= 450px){ 
+    .modelling-btn {
+        font-size: 90%;
+    }
+    .illustration-btn {
+        font-size: 90%;
+    }
 }
