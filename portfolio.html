@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/asq8ukn.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pch2dmx.css">
     <title>Portfolio</title>
     <link rel="icon" type="image/png" href="images/icon/icon.png">
     <link rel="stylesheet" href="css/main.css">
@@ -14,9 +16,12 @@
     
     <header>
     <div class="navbar">
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu">☰<span class="hamb-line"></span></label>
+        <div class="nav">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li class="active" class="submenu"><a href="#">Portfolio</a>
+            <li class="active submenu"><a href="#">Portfolio</a>
                 <div class="dropdown">
                 <ul>
                     <li><a href="modelling.html">Modelling</a></li>
@@ -27,6 +32,7 @@
 
             <li><a href="about.html">About</a></li>
         </ul>
+        </div>
     </div>
 </header>
 
@@ -35,10 +41,8 @@
         <button class="modelling-btn" onClick="modellingRedirect()"><a href="modelling.html">Modelling</a></button>
         <button class="illustration-btn" onClick="illustrationRedirect()"><a href="illustration.html">Illustration</a></button>
 </div>
-
-
-<div class="footer">&copy; Aiden Kelly</div>
 </div>
+
 
 <script>
     function modellingRedirect() {
@@ -49,5 +53,6 @@ function illustrationRedirect() {
   window.location.href = "illustration.html";
 }
 </script>
+<div class="footer">&copy; Aiden Kelly</div>
 </body>
 </html>

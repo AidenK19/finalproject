@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/asq8ukn.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pch2dmx.css">
     <title>Portfolio -- Illustration</title>
     <link rel="icon" type="image/png" href="images/icon/icon.png">
     <link rel="stylesheet" href="css/main.css">
@@ -12,19 +14,23 @@
 <body>
     <header>
     <div class="navbar">
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu">☰<span class="hamb-line"></span></label>
+        <div class="nav">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li class="submenu"><a href="portfolio.html">Portfolio</a>
                 <div class="dropdown">
                 <ul>
                     <li><a href="modelling.html">Modelling</a></li>
-                    <li><a href="#">Illustrations</a></li>
+                    <li class="active"><a href="#">Illustrations</a></li>
                 </ul>
             </div>
             </li>
 
             <li><a href="about.html">About</a></li>
         </ul>
+        </div>
     </div>
 </header>
 
@@ -32,23 +38,22 @@
 <div class="container">
 
 <div class="gallery">
-    <img src="images/illustrations/20260320_143521.jpg" class="default" id="img1" onclick="change(this)">
-    <img src="images/illustrations/ariesmoonpreview.png" class="default" id="img2" onclick="change(this)">
-    <img src="images/illustrations/horsie.png" class="default" id="img3" onclick="change(this)">
-    <img src="images/illustrations/cnyzine26.png" class="default" id="img4" onclick="change(this)">
-    <img src="images/illustrations/20260320_143521.jpg" class="default" id="img5" onclick="change(this)">
-    <img src="images/illustrations/ariesmoonpreview.png" class="default" id="img6" onclick="change(this)">
-    <img src="images/illustrations/horsie.png" class="default" id="img7" onclick="change(this)">
-    <img src="images/illustrations/cnyzine26.png" class="default" id="img8" onclick="change(this)">
-    <img src="images/illustrations/20260320_143521.jpg" class="default" id="img9" onclick="change(this)">
+    <img src="images/illustrations/jirachi.jpg" alt="A traditional drawing of the pokemon Jirachi,arms outstretched and happy." class="default" id="img1" onclick="change(this)">
+    <img src="images/illustrations/ariesmoonpreview.png" alt="An illustration of a ghostly sheep standing on a moonlit lake. There are various flowers in the foreground, and a beautiful galaxy in the background" class="default" id="img2" onclick="change(this)">
+    <img src="images/illustrations/gallantmon.webp" alt="A side profile of the digimon Gallantmon,looking into the distance with a serious expression." class="default" id="img3" onclick="change(this)">
+    <img src="images/illustrations/cnyzine26.png" alt="An illustration of the digimon Indaramon, looking over a hilly field of Uni and ShimaUnimon. A Pegasusmon flies in the distant sky." class="default" id="img4" onclick="change(this)">
+    <img src="images/illustrations/coatlmon.jpg" alt="An illustration of the digimon Coatlmon, floating above the clouds alongside lanterns. It is sending one up higher with its snout." class="default" id="img5" onclick="change(this)">
+    <img src="images/illustrations/mew.jpg" alt="A drawing of the pokemon Mew, floating nearly upside down. It's eyes are closed, and looks mischevious." class="default" id="img6" onclick="change(this)">
+    <img src="images/illustrations/fox.png" alt="A drawing of a girl with long, ginger hair, wearing a Zorua mask. She's holding a Mimikyu, and looks happy. To the left, there is a drawing of her as a small keychain plush, with a caption reading '#1 Marketable Plushie'. Above that is a drawing of her stanced like she is going to pounce, with a caption of 'Going to dig so many holes'" class="default" id="img7" onclick="change(this)">
+    <img src="images/illustrations/snoopy.jpg" alt="A painting of Snoopy, asleep on his classic red doghouse. Woodstock is sitting on his stomach, looking happy. The background is of a purple galactic nebula, stars dotted everywhere." class="default" id="img8" onclick="change(this)">
+    <img src="images/illustrations/fluffymon.jpg" alt="An illustration of the digimon Fluffymon, standing on a rock during sunset. It looks happy." class="default" id="img9" onclick="change(this)">
     
 </div>
 
 
 
-<div class="footer">&copy; Aiden Kelly</div>
 </div>
-
+<div class="footer">&copy; Aiden Kelly</div>
 <script>
     function change(element) {
     element.classList.toggle("fullsize");

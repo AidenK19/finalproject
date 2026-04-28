@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.typekit.net/asq8ukn.css">
+    <link rel="stylesheet" href="https://use.typekit.net/pch2dmx.css">
     <title>Portfolio -- About Me</title>
     <link rel="icon" type="image/png" href="images/icon/icon.png">
     <link rel="stylesheet" href="css/main.css">
@@ -12,6 +14,9 @@
 <body>
     <header>
     <div class="navbar">
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu">☰<span class="hamb-line"></span></label>
+        <div class="nav">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li class="submenu"><a href="portfolio.html">Portfolio</a>
@@ -23,8 +28,9 @@
             </div>
             </li>
 
-            <li class="active"><a href="about.html">About</a></li>
+            <li class="active"><a href="#">About</a></li>
         </ul>
+        </div>
     </div>
 </header>
 
@@ -34,7 +40,7 @@
 
 <div class="form">
     <h1>CONTACT</h1>
-    <form>
+    <form action="" method="post">
         <div class="formrow">
             <div class="formgroup">
                 <label for="fname">First Name</label><br>
@@ -55,12 +61,14 @@
             <div class="formgroup">
                 <label for="email">Email Address</label><br>
                 <input type="text" id="email" name="email"><br>
-            </div>     
+            </div>   
 
         </div>   
 
         <label for="message">Message</label><br>
         <input type="text" id="message" name="message"><br>
+        <br>
+        <button type="submit" id="submit">Submit</button>
     </form>
 </div>
 
@@ -76,8 +84,9 @@
 </div>
 </div>
 
-<div class="footer">&copy; Aiden Kelly</div>
 
 </div>
+<div class="footer">&copy; Aiden Kelly</div>
+<script src="scripts/form.js"></script>
 </body>
 </html>

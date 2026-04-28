@@ -33,6 +33,8 @@
         display: flex;
         flex-direction: row-reverse;
     }
+
+    
 }
 
 /* tablet styling. between desktop sizes and mobile sizes */
@@ -67,14 +69,17 @@
     .mobile-ready {
         display: none;
     }
+
+
+    
 }
 
 /* desktop styling */ /* probably change width back to 1280 after all is said and done?*/
 @media screen and (width >= 1200px){
     .desktop-ready {
         display: block;
-        height: 90%;
-        max-width: 75%;
+        max-height: 70vh;
+        max-width: 150vh;
         margin: auto;
     }
 

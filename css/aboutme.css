@@ -14,23 +14,75 @@
 
 label {
  display: inline-flex;
- margin-bottom: 5px;
+ margin-bottom: 2%;
 }
 
+form {
+  text-align: center;
+  
+}
 .formrow {
   display: flex;
+  gap: 2%;
+  
 }
 
 .formgroup {
+  display: flex;
+  flex-direction: column;
   width: auto;
-  padding: 5px;
-}
-
-.formgroup input {
-  width: 100%;
+  padding: 2%;
 }
 
 
-.footer {
-    text-align: center;
+#message {
+  justify-content: center;
+}
+
+
+@media screen and (width <= 550px) {
+    .content {
+      padding-left: 0;
+      justify-content: center;
+    }
+    label {
+      all:initial;
+    }
+
+    form {
+      all:initial;
+    }
+    
+    .formrow {
+      all:initial;
+    }
+
+    .formgroup {
+      all:initial;
+    }
+
+
+    #message {
+     all:initial;
+    }
+}
+
+@media screen and (width <= 390px) {
+    .formgroup input {
+      width: 5vh;
+    }
+}
+
+
+@media screen and (width > 390px) and (width < 1200px)  {
+    .formgroup input {
+      width: 10vh;
+    }
+}
+
+
+@media screen and (width >= 1200px) {
+    .formgroup input {
+      width: auto;
+    }
 }
